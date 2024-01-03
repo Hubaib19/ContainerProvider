@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   provider.resizeController();
                 },
-                child: const Text('Button'))
+                child: const Text('click',style: TextStyle(color: Colors.black),))
           ],
         ),
       ),
