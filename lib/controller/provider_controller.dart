@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ContainerProvider extends ChangeNotifier{
-bool resize = true;
+bool resize = false;
 
 void resizeController(){
   resize =!resize;
